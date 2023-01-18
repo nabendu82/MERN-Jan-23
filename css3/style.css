@@ -1,111 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@600&family=Roboto:wght@300&display=swap');
-
-
-h3{
-    background-color: rgb(0, 100, 255);
-}
-
-p.top{
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: underline;
-    line-height: 40px;
-    font-family: 'Noto Serif Toto';
-    /* font-family: 'Roboto'; */
-}
-
-p#bottom{
-    font-family: 'Roboto';
-    font-size: 20px;
-    /* letter-spacing: 10px;
-    word-spacing: 10px; */
-    /* padding: 10px;
-    margin: 20px; */
+.block{
+    float: left;
+    width: 70%;
+    padding: 20px;
     border: 2px solid black;
-    /* padding-left: 10px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-right: 40px;
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    margin-right: 10px; */
-    padding: 10px 20px;
-    margin: 30px 40px;
-
+    box-sizing: border-box;
 }
 
-.categopries{
-    border: 5px solid black;
-    border-radius: 10px;
-    padding: 20px;
-    font-family: 'Roboto';
+.block1{
+    float: right;
+    width: 30%;
+    padding: 20px;    
+    border: 2px solid black;
+    box-sizing: border-box;
 }
 
-.categopries h2{
-    text-align: center;
-    text-transform: uppercase;
-
+.pbox{
+    width: 800px;
+    height: 600px;
+    border: 3px dashed black;
+    position: relative;
+    background-image: url(./images/microsoft-365-oo_xunM0CcE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2em;
+}
+html{
+    font-size: 2rem;
 }
 
-.categopries ul{
-    padding: 0;
-    list-style: none;
+.pbox h1{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    font-size: 3em;
 }
 
-.categopries a{
-    text-decoration: none;
-    color: black;
+.pbox h2{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
 }
 
-.categopries li{
-    padding-bottom: 10px;
-    border-bottom: 2px dotted blue;
+.fbtn{
+    position: fixed;
+    top: 300px;
+    left: 200px;
 }
 
-.categopries a:hover{
-    background-color: black;
-    color: white;
-    font-size: 30px;    
+/* .psuedo ul:first-child{
+    background-color: pink;
+} */
+
+/* .psuedo li:first-child{
+    background-color: pink;
 }
 
-.categopries h2:hover{
-    background-color: orangered;   
-
+.psuedo li:last-child{
+    background-color: blue;
 }
 
-.my-form{
-    padding: 20px;
-    font-family: 'Roboto';
-    font-size: 20px;
-}
-
-.my-form .form-gp{
-    padding-bottom: 10px;
-}
-
-.my-form label{
-    display: block;
-}
-input{
-    padding: 10px;
-    width: 100px;
-}
-
-.sbt{
-    border: none;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: 10px;
-    font-size: 20px;
+.psuedo li:nth-child(4){
     background-color: salmon;
-    padding: 20px;
-    color: blue;
-    font-weight: bold;
-    font-family: 'Roboto';
+} */
+
+.psuedo li:nth-child(odd){
+    background-color: blue;
 }
 
-.sbt:active{
-    font-size: 30px;
+.psuedo li:nth-child(even){
+    background-color: salmon;
 }
