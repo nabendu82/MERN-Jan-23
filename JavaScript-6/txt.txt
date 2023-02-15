@@ -1,0 +1,1 @@
+https://www.engati.com/blog/javascript-engine#:~:text=How%20does%20the%20JavaScript%20engine%20work%3F,-%E2%80%8D&text=The%20JavaScript%20engine%20works%20on,easily%20understandable%20by%20the%20CPU.
