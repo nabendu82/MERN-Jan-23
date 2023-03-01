@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(91, 134, 134);
+}
+
+
+.hh{
+    margin-left: 115px;
+    color: yellow;
+}
+
+img{
+    height: 400px;
+    width: 30%;
+}
+
+.active{
+  width: 80%;
+  border: 30px solid black;
+  box-shadow: 0px 0px 10px pink;
+}
+
+.theme{
+    background-color: rgb(19, 15, 15);
+    color: white;
+    
+}
